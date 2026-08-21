@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/pantalla_ingreso_datos.dart';
+import 'screens/pantalla_inicio.dart';
 import 'theme/tema_app.dart';
 
 void main() {
@@ -15,7 +15,7 @@ class MiAppRentabilidad extends StatelessWidget {
       title: 'Calculador de Rentabilidad',
       debugShowCheckedModeBanner: false,
       theme: TemaApp.temaClaro,
-      home: const PantallaIngresoDatos(),
+      home: const PantallaInicio(),
     );
   }
 }
